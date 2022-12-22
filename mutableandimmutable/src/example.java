@@ -13,3 +13,12 @@ public class example {
 
     }
 }
+class example2{
+    private final String surname;
+    example2(final String surname) {
+        this.surname = surname;
+    }
+    public final String getSurname() {
+        return surname;
+    }
+}

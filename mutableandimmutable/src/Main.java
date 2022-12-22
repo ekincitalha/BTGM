@@ -5,5 +5,12 @@ public class Main {
 
         obj.setName("talha1");
         System.out.println(obj.getName());
+
+
+        //immutable
+
+        example2 obj2=new example2("ekinci");
+        System.out.println(obj2.getSurname());
+
     }
 }
